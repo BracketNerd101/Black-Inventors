@@ -1,0 +1,855 @@
+
+body {
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    
+    background:url(../img/sayagata-400px.png);
+}
+
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+.nav-ins {
+    
+/*
+    position: fixed;
+    width: 100%;
+    z-index: 132454365;
+*/
+    
+    
+    
+}
+
+
+ul>li>a {
+    
+    color:white;
+}
+
+
+ul>li>a:hover {
+    
+    color:rgb(183, 82, 242);
+}
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+
+
+
+.title-nav {
+    
+    color:white;
+    clear: right;
+    margin-left: 2.4rem;
+    clear: both;
+    margin-top: -3rem;
+    margin-right: 1rem;
+    text-align: right
+    
+}
+
+.black-title   {
+    
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    
+    
+}
+
+.hero-banner {
+    
+    background:url(../img/atari-inventor.jpg);
+    background-size: cover;
+    height:30rem;
+    width:100%;
+    
+}
+
+.card-hint  {
+    
+    text-align: center;
+    color:purple;
+    
+}
+
+#inventor-hero {
+    
+    
+    
+}
+
+.hero-banner  {
+    
+    
+    
+    
+}
+
+
+#card-intro  {
+   
+    width:80%;
+    margin: auto ;
+    
+    
+    
+}
+
+#intro-content {
+    
+    
+    text-align: center;
+    background-color:white;
+    color:purple;
+    width:100%;
+    border-radius: 1px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: -5rem;
+    margin-bottom: 5.5rem;
+    
+       
+    
+}
+
+.modal-fun-info {
+    
+    
+    color: purple;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+
+#card-intro-2  {
+   
+    width:80%;
+    margin: auto ;
+    
+    
+    
+}
+
+#intro-content-2 {
+    
+    
+   
+    background-color:purple;
+    color:white;
+    width:100%;
+    border-radius: 1px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: -5rem;
+       
+    
+}
+
+#center-answer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hr-color {
+    
+    color: white;
+    border-color: white;
+    
+}
+
+.hr-color2 {
+    
+    color: white;
+    border-color: purple;
+    
+}
+
+
+
+/*-------------Cards Play Carusel CSS--------------------------------------------------------------------*/
+.card {
+    box-shadow: 1px 3px #f2f2f2;
+}
+
+.display-7 {
+    
+    padding-bottom: 1.5rem;
+    font-family: 'Abril Fatface', cursive;
+    color:purple;
+    
+}
+
+#card-play{
+    
+    height:65rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+#play-container {
+    
+    margin-left: 3rem;
+    margin-bottom:1rem;
+    
+    
+}
+
+.card-area-table {
+    
+    margin-top: 4rem;
+    height:35rem;
+    width: 100%;
+    box-shadow:1px 3px #f2f2f2;
+     
+    
+}
+
+.card-size-ection {
+    
+    margin-bottom: 1rem;
+}
+
+
+.post-flip {
+    
+   
+    width:15rem;
+    height:15rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(183, 82, 242);
+    color:white;
+    box-shadow: 2px 4px #e2e2e2;
+    
+
+    
+}
+
+.pre-flip {
+    
+   
+    width:15rem;
+    height:15rem;
+    color:purple;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 4px #e2e2e2;
+
+    
+}
+
+.tiny-image {
+    
+    background:url(../img/Jerry-Lawson-Black-Enterprise-December-1982-Courtesy-The-Strong-Rochester-New-York..jpg);
+    background-size: cover;
+    height: 8rem;
+    
+}
+
+
+#tiny-1  {
+    
+    background:url(../img/super-soaker.jpg);
+    background-size: cover;
+    
+    
+    
+}
+
+
+#tiny-3  {
+    
+     background:url(../img/Dr_%20Marjorie%20Joyner%201.jpg);
+    background-size: cover;
+}
+
+#tiny-4 {
+    
+    background:url(../img/ironing.jpg);
+    background-size: cover;
+    
+}
+
+#tiny-5  {
+    
+   background:url(../img/george%20alcorn.jpg);
+    background-size: cover;
+    
+}
+
+#tiny-6  {
+    
+    background:url(../img/Jack%20Johnson.jpg);
+    background-size: cover;
+    
+}
+
+#tiny-7  {
+    
+background:url(../img/west_james.jpg);
+    background-size: cover;
+    
+}
+
+#tiny-8  {
+    
+    background:url(../img/Inventor-Banneker.jpg);
+    background-size: cover;
+    
+}
+
+#tiny-9  {
+    
+    background:url(../img/Inventor-one.jpg);
+    background-size: cover;
+}
+
+#tiny-10  {
+    
+    background:url(../img/janet-bashen.jpg);
+    background-size: cover;
+}
+
+#tiny-11  {
+    
+    background:url(../img/bath.jpg);
+    background-size: cover;
+    
+}
+
+
+#tiny-12  {
+    
+    background:url(../img/o-GARRETT-A-MORGAN-facebook.jpg);
+    background-size: cover;
+    
+}
+
+#MyLawson {
+    
+    width: 100%;
+}
+
+.modal-dialog {
+    
+    width:100%;
+}
+
+.modal-lg {
+    
+ 
+}
+
+/*-------------Cards flip animation CSS--------------------------------------------------------------------*/
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 850px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 15rem;
+	height: 15rem;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.flip-container:click .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+	transform: rotateY(180deg);
+}
+
+
+.inro-detail-jumbo {
+        background-color:purple;
+        text-align: center;
+        color:white;
+        font-family: 'Abril Fatface', cursive;
+    
+           
+        
+    }
+
+#intro-detail{
+    
+    margin-top: 6rem;
+    height:inherit;
+    width:100%;
+    
+    
+}
+
+.small-artworks  {
+    margin-top: 3rem;
+    
+    
+      
+    
+}
+
+.intro-body-text {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+/*------------Spotlight sction here------------------------------------------------------------------------*/
+
+#spotlight {
+    
+    
+    
+}
+
+.spotlight-card {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+    
+    
+    
+}
+
+
+.spotlight-image-1  {
+    
+    background:url(../img/super-soaker.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-2  {
+    
+    background:url(../img/atari-inventor.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-3  {
+    
+    background:url(../img/Dr_%20Marjorie%20Joyner%201.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-4  {
+    
+    background:url(../img/ironing.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-5  {
+    
+    background:url(../img/george%20alcorn.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-6  {
+    
+    background:url(../img/Jack%20Johnson.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-7  {
+    
+    background:url(../img/west_james.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-8  {
+    
+    background:url(../img/Inventor-Banneker.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-9  {
+    
+    background:url(../img/Inventor-one.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-10  {
+    
+    background:url(../img/janet-bashen.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-11  {
+    
+    background:url(../img/bath.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.spotlight-image-12  {
+    
+    background:url(../img/o-GARRETT-A-MORGAN-facebook.jpg);
+    background-size: cover;
+    height: 35rem;
+    width:100%;
+    
+    
+     
+}
+
+.back-to-top {
+    
+    color:purple;  
+    
+}
+
+
+. play {
+    
+    
+    
+}
+
+
+.Insructions {
+    
+    
+    
+}
+
+
+
+.back-to-top-bottom  {
+    
+    
+    
+    
+}
+
+.play {
+    
+    margin-top: 4rem;
+    text-align: center;
+    color:white;
+    padding-bottom: 2rem
+    
+    
+}
+
+
+.footer {
+    
+    background-color:black;
+    height:inherit;
+    width:102%;
+    margin-top: 2rem;
+    
+   
+    
+    
+}
+
+.footer-icons {
+    
+    color:white;
+    
+    
+}
+
+.footer-icons:hover {
+    
+    color:purple;
+    
+    
+}
+.back-to-top:hover {
+    
+    color: black;
+}
+
+#footer {
+    
+    width: 100%;
+}
+
+
+a{
+    
+    transition: all 4.3s ease-out;
+    transition-property: all;
+    transition-duration: 6.8s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    
+}
+
+
+
+/*------------Spotlight sction here------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----CSS MEDIA QUERIES BELOW ---------------------------------------------------------------------------------*/
+/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+        
+        #intro-detail{
+        margin-top: 170rem;
+       height: inherit;
+       width: 100%;
+
+	}
+
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) and (min-width:560px) {
+        
+        
+        #intro-detail{
+        margin-top: 805rem;
+       height: inherit;
+       width: 100%;
+
+	}
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) and (min-width: 675px) { 
+    
+    #intro-content {
+        
+        margin-right: 2rem;
+    }
+    #card-play   {
+    
+   
+    
+    
+}
+    
+    #play-container {
+        
+        
+    }
+    
+   
+    #intro-detail{
+    
+    margin-top: 700rem;
+    height:50rem;
+    width:100%;
+    
+    
+}
+
+
+}
+    
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+
+#intro-content {
+        
+        margin-left: 2rem;
+    }
+    
+    .post-flip {
+    
+   
+    width:100%;
+    height:15rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(183, 82, 242);
+    color:white;
+    
+}
+
+.pre-flip {
+    
+   
+    width:15rem;
+    height:15rem;
+    color:rgb(183, 82, 242);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+    #intro-detail{
+    
+    margin-top: 410rem;
+    height:inherit;
+    width:100%;
+    
+    
+}
+    #card-play {
+        margin-bottom: 5rem;
+        height: inherit;
+        
+        
+    }
+    
+    
+  
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+   
+    #intro-detail{
+    
+    margin-top: 55rem;
+    height:inherit;
+    width:100%;
+    
+    
+}
+
+    #card-play   {
+    
+   
+    
+    
+}
+
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,64 @@
+body {
+    
+   background: url(../img/sativa.png);
+    
+    
+    
+}
+
+.hero-banner-2 {
+    
+    
+    
+}
+
+
+#instructions  {
+    
+    height: 20rem;
+    margin-top: -.273rem;
+    margin-bottom:15rem;
+        
+    
+}
+
+.instruction-title {
+    
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color:white;
+    background-color: purple;
+    margin-bottom: 7rem;
+    
+    
+}
+
+#card-example  {
+    
+    height: 28rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+#mycard {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+        
+        
+}
+
+
+.button-play  {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    height: 15rem;
+    
+    
+}
