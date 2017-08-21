@@ -6,6 +6,8 @@ body {
     
 }
 
+. .wow { visibility: hidden; }
+
 .hero-banner-2 {
     
     
@@ -16,7 +18,7 @@ body {
 #instructions  {
     
     height: 20rem;
-    margin-top: -.273rem;
+    margin-top: -2.7rem;
     margin-bottom:15rem;
         
     

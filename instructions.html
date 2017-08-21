@@ -9,7 +9,9 @@
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/inventor.css">
-     <link rel="stylesheet" type="text/css" href="css/instruction.css">
+    <link rel="stylesheet" type="text/css" href="css/instruction.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
 <!-- Optional theme -->
@@ -70,7 +72,7 @@
     <!--    inventor-hero ends here---------------------------------------------------------------------------------------------------------------------------------------->
 
   <section id="instructions">
-             <div class="jumbotron jumbotron-fluid instruction-title">
+             <div class="jumbotron jumbotron-fluid instruction-title wow fadeInUp" data-wow-duration="1.4s" data-wow-offset="15">
           <div class="container-fluid">
             <h1 class="display-4">Game Instructions</h1>
             <p class="lead">No worries! Its easy as 1, 2, 3.</p>
@@ -86,7 +88,7 @@
   
   <section id="card-example">
      <div class="container-fluid">
-      <div class="col-md-6 col-lg-3 card-area-table flip-container" id="mycard" ontouchstart="this.classList.toggle('hover');">
+      <div class="col-md-6 col-lg-3 card-area-table flip-container wow fadeInUp" data-wow-duration="1.4s" data-wow-offset="45" data-wow-delay="0.8s" id="mycard" ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper">
                         <div class="front">
                            <div class="card">
@@ -155,6 +157,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/smooth.js"></script>
     <script src="js/smooth-scroll.js"></script>
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
      <!--    Carusel script here-->
     <script src="js/play-card.js"></script>
