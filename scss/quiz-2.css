@@ -48,7 +48,7 @@ form {
       -ms-flex-align: start;
           align-items: flex-start;
   padding-bottom: 20px;
-  width: 300px;
+  width: 400px;
 }
 
 form h4 {
@@ -278,7 +278,7 @@ input:focus {
 }
 
 .left {
-  width: 220px;
+  width: 410px;
   height: auto;
   min-height: 100%;
   position: relative;

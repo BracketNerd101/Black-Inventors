@@ -155,8 +155,7 @@ input {
     svg {
       opacity:  1; 
       path {
-        fill:  $pleft
-        mary; 
+        fill:  $primary; 
       }      
     }
   }
@@ -185,7 +184,7 @@ $displacement:  3px;
   box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12);
 }
 .left {
-  width:  400px; 
+  width:  410px; 
   height:  auto; 
   min-height:  100%; 
   position:  relative; 
