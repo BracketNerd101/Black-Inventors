@@ -19,24 +19,24 @@
     </nav> -->
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:50px">Play Prometheus </h1>
+        <h1 style="font-size:50px" class="text-center pt-5 text-white">Play Prometheus </h1>
         <p class="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam tempora accusantium eveniet nulla, quaerat ullam!
+          Answer our fun quiz and earn a 7% discount code at checkout. The quizes are a lot easier than you think.  
         </p>
       </div>
     </div>
 
-      <div class="container">
+      <div class="container container-quiz">
         <div class="row">
-            <div class="quiz-card-style">
-              <div class=" card-body">
-                <div class="row shadow-sm p-3 mb-5 bg-body card-content-placement">
-                  <div class="col-lg-4">
-                    <img src="img/phone-lady.jpg" width="600px" class="img-fluid" alt="..."> 
+            <div class="quiz-card-style col-lg-8">
+              <div class="card-body card-content-placement">
+                <div class="row shadow-sm p-3 mb-5 bg-body">
+                  <div class="col-lg-4 happy-tester">
+                    <!-- <img src="img/phone-lady.jpg" width="600px" class="img-fluid" alt="...">  -->
                   </div>
-                  <div class="col-lg-4">
-                    <h3>Headline Title</h3>
-                    <p>(hint: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto ea aspernatur.</p>
+                  <div class="col-lg-6 px-4">
+                    <h3 class="pt-5">Who won the 1992 Slam dunk contest?</h3>
+                    <p class="fst-italic text-secondary">(hint: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto ea aspernatur.</p>
                     <div class="form-check">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                       <label class="form-check-label" for="flexRadioDefault1">
@@ -55,25 +55,77 @@
                         Michael Jackson
                       </label>
                     </div>
-                    <a href="" class="mt-5 btn btn-lg btn-outline-success">Submit Answer</a>
+                    <button type="button" class="btn btn-lg btn-outline-success mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Submit Answer
+                    </button>
+                    <button type="button" class="btn btn-lg btn-outline-danger mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#wrongModal">
+                      Submit Answer
+                    </button>
+                    <!-- <a href="" class=" mt-5 btn btn-lg btn-outline-success">Submit Answer</a> -->
                   </div>
                 </div>
               </div>
             </div>
         </div>
       </div>
-     <div class="container">
-       <div class="row card">
-         <div class="col-lg-6">
-           
 
-         </div>
-         <div class="col-lg-6">
-           
-
+      <div class="container">
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+              <h2>Change the background</h2>
+              <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+              <button class="btn btn-outline-light" type="button">Example button</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Add borders</h2>
+              <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+              <button class="btn btn-outline-secondary" type="button">Example button</button>
+            </div>
+          </div>
         </div>
-       </div>
-     </div>
+      </div>
+      <!-- Correct -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-success" id="exampleModalLabel">Correct! </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                You have won the coupon code <span class="bold">NS7DR5</span>. Use at checkout of your next purchase.
+              </p>
+              <img src="img/confetti-winner.jpg" class="text-center" width="auto" height="300px" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wrong Answer Modal -->
+
+      <div class="modal fade" id="wrongModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oops Try again </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              See if you can guess the correct answer ;-)
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
        
 
