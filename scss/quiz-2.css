@@ -12,6 +12,19 @@ body {
   position: relative;
 }
 
+.question-img {
+  width: 100%;
+  display:block;
+}
+
+.correct-answer, .incorrect-answer {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -42,4 +55,3 @@ body {
   background-size: cover;
   width: 30rem;
 }
-/*# sourceMappingURL=quiz-2.css.map */
