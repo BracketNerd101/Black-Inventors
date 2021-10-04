@@ -1,0 +1,45 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.hero-image {
+  background-color: #60dfcd;
+  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-quiz {
+  margin-top: -15rem;
+}
+
+.container-quiz .quiz-card-style {
+  margin: auto 0 0;
+  width: inherit;
+  z-index: 700;
+}
+
+.container-quiz .quiz-card-style .card-content-placement {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-quiz .quiz-card-style .card-content-placement .happy-tester {
+  background-image: url("../img/tester-people.jpg");
+  background-size: cover;
+  width: 30rem;
+}
+/*# sourceMappingURL=quiz-2.css.map */
