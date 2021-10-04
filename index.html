@@ -7,7 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <link rel="stylesheet" href="scss/quiz-2.css">
+    <script src="js/quiz.js"></script>
 
     <title>Quiz up</title>
   </head>
@@ -31,37 +35,43 @@
             <div class="quiz-card-style col-lg-8">
               <div class="card-body card-content-placement">
                 <div class="row shadow-sm p-3 mb-5 bg-body">
-                  <div class="col-lg-4 happy-tester">
-                    <!-- <img src="img/phone-lady.jpg" width="600px" class="img-fluid" alt="...">  -->
+                  <div class="col-lg-6">
+                    <img class="question-img" src="img/tester-people.jpg"> 
                   </div>
-                  <div class="col-lg-6 px-4">
-                    <h3 class="pt-5">Who won the 1992 Slam dunk contest?</h3>
-                    <p class="fst-italic text-secondary">(hint: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto ea aspernatur.</p>
+                  <div class="col-lg-6 px-4 question">
+                    <h3 class="pt-4">What does ssl stand for?</h3>
+                    <p class="fst-italic text-secondary">hint: It adds <b>security</b> from a web server to a browser.</p>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Jean Michael
+                      <label>
+                        <input class="form-check-input incorrect" type="radio" name="question" id="1" required>
+                          Super Sustainable License
+                      </label>
+                      <label>
+                        <input class="form-check-input correct" type="radio" name="question" id="2">
+                          Secure Sockets Layer
+                      </label>
+                      <label>
+                        <input class="form-check-input incorrect" type="radio" name="question" id="3">
+                          Sally Sells L'seashells (by the sea shore)
                       </label>
                     </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Michael Jordan
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Michael Jackson
-                      </label>
-                    </div>
-                    <button type="button" class="btn btn-lg btn-outline-success mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-lg btn-outline-success mt-3 mb-3">
                       Submit Answer
                     </button>
-                    <button type="button" class="btn btn-lg btn-outline-danger mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#wrongModal">
-                      Submit Answer
+                  </div>
+                  <div class="col-lg-6 px-4 correct-answer">
+                    <h3 class="pt-3">Good job, you are correct!</h3>
+                    <p>SSL stands for Secure Sockets Layer, a security protocol that creates an encrypted link between a web server and a web browser. Companies and organizations need to add SSL certificates to their websites to secure online transactions and keep customer information private and secure.</p>
+                    <p>Use promo code <b>SSLISAWESOME</b> to receive 7% off your next SSL web add-on</p>
+                    <button type="button" class="try-again btn btn-lg btn-outline-info mt-3 mb-3">
+                      Go Back
                     </button>
-                    <!-- <a href="" class=" mt-5 btn btn-lg btn-outline-success">Submit Answer</a> -->
+                  </div>
+                  <div class="col-lg-6 px-4 incorrect-answer">
+                    <h3 class="pt-4">Ouch, better luck next time</h3>
+                    <button type="button" class="try-again btn btn-lg btn-outline-danger mt-3 mb-3">
+                      Try Again
+                    </button>
                   </div>
                 </div>
               </div>
