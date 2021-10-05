@@ -2,19 +2,9 @@ body {
   background-color: #f3f3f3;
 }
 
-.hero-image {
-  background-color: #60dfcd;
-  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
-  height: 35rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .question-img {
   width: 100%;
-  display:block;
+  display: block;
 }
 
 .correct-answer, .incorrect-answer {
@@ -23,6 +13,15 @@ body {
 
 label {
   display: block;
+}
+
+.hero-image {
+  background-color: #ff9966;
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
@@ -55,3 +54,4 @@ label {
   background-size: cover;
   width: 30rem;
 }
+/*# sourceMappingURL=quiz-2.css.map */
